@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    display: flex;
+    allign-items: center;
+    background:rgb(32, 31, 31);
+    padding: 15px 40px;
+    justify-content: space-between;
+    
+}
+.logo{
+    color: rgb(240, 235, 235);
+    font-size: 30px;
+    font-weight: bold;;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font size: 16px;
+
+}
+
+.nav-links a:hover{
+    color: rgb(141, 141, 226);
+}
+.hero-section{
+    padding: 0px;
+}
+
+.Footer-section{
+   background-color: rgb(26, 26, 26);
+    color: white;
+    text-align: center;
+   padding: 20px 0px;
+   width: 100%;
+   margin: 0px;
+   box-sizing: border-box;
+    
+}
+
+.section{
+   
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+.hero-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 2px;
+    margin-bottom: 33px;
+}
+.hero-section h1{
+    font-size: 35px;
+    color: black;
+    padding-bottom: 0px;
+
+}
+.hero-section p{
+  font-size: 18px;
+  color: gray;  
+  margin: 1%;
+
+}
+.about-section{
+    text-align: center;
+}
+
+.socials{
+    
+    display: flex;
+    gap: 70px;
+}
+.socials a{
+    text-decoration:none;
+    font-weight: bold;
+    color: rgb(42, 166, 219);
+}
+.socials a:hover{
+ color: rgb(147, 147, 235);
+}
+
+.work-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+}
+
+.card{
+    flex: 1;
+    background: rgba(241, 240, 240, 0.933);
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    box-shadow: 0 0 0px rgba(0,0,o,o.4);
+}
+
+.card button{
+    background: black;
+    color: white;
+    border:none;
+    border-radius: 8px;
+    padding: 10px 15px;
+
+
+}
+
+.card button:hover{
+    background-color: gray;
+
+}
