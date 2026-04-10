@@ -84,7 +84,7 @@ body{
 .socials{
     
     display: flex;
-    gap: 70px;
+    gap: 40px;
 }
 .socials a{
     text-decoration:none;
